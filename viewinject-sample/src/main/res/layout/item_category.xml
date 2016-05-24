@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="54dp">
+
+    <ImageView
+        android:id="@+id/id_icon_iv"
+        android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/id_icon_iv"
+              android:layout_centerVertical="true"
+              android:text="Test"
+              android:id="@+id/id_title_tv"
+              android:layout_marginLeft="24dp"
+        />
+
+
+
+</RelativeLayout>
